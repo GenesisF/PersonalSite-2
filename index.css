@@ -1,0 +1,147 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.banner {
+  background: url(img/bannerPhoto.jpg); 
+  width: 100%; 
+  background-size: cover;
+}
+.top-bar {
+  background-color:#d2b3d6;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.logo { 
+  color:#846076;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font-size: 40px;
+  padding: 18px;
+  text-transform: uppercase;
+}
+
+.menu {
+  -webkit-box-flex: 3;
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+}
+
+.menu ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin-top: 30px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
+}
+
+.menu ul li {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+}
+
+.menu ul li a {
+  color: #84607d;
+  font-size: 20px;
+  text-decoration: none;
+}
+ 
+/*banner*/
+
+.banner-text {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 15% 0; 
+}
+
+.banner-text-items {
+  color: #c9579b;
+  margin: auto;
+  text-align: center;
+  width: 50%;
+}
+
+.banner-text-items h2 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.banner-text-items p {
+  font-size: 18px;
+}
+
+/*main-content*/
+
+.main-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  padding: 5% 0;
+}
+
+.main1 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 3%;
+  text-align: center;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact-logos {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-around;
+  padding: 15% 0; 
+  align-items: flex-start;
+}
+
+.contact-logos > img {
+  width: 33.33%;
+  max-width: 80px;
+}
+
+.footer {
+background-color: #d2b3d6;
+}
+
+.footer p {
+  line-height: 80px;
+  color: #84607d;
+  text-align: center;
+}
+
+.footer p a:hover{
+  text-decoration: underline;
+  color: #c9579b;
+}
